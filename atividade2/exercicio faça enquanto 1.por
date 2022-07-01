@@ -1,7 +1,20 @@
 programa {
 	funcao inicio()
 	{
-	 inteiro numero 
+	 inteiro contagem = 233
+
+	  faca{
+	  	escreva(" ", contagem)
+	  	se(contagem >= 300 e contagem <= 400) {
+	  		contagem = contagem + 3
+	  	} senao{
+	  		contagem = contagem + 5
+	  	}
+	  	
+	  }enquanto(contagem <= 456)
+	  
+
+	 
 	}
 }
 
@@ -10,7 +23,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 48; 
+ * @POSICAO-CURSOR = 256; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
