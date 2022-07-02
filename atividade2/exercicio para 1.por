@@ -1,44 +1,53 @@
 programa {
 	funcao inicio() {
 
-	real salario, somaSalario = 0, mediaSalario, maiorSalario = 0, mediaFilhos, porcentPessoasSalar = 0
-	inteiro qtdFilhos, somaFilhos = 0, i
+		real filhos = 0, somaFilhos = 0, mediaFilhos, i,
+		salarios = 0, somaSalarios = 0, mediaSalarios, hab = 3, porcentagem,
+		qtdPessoasSalario = 0
 
-		para(i = 0; i < 20; i++){
+		para(i = 1; i <= hab; i++) {
+			//salario
+			escreva("Digite seu salário: ")
+			leia(salarios) 
+			somaSalarios = somaSalarios + salarios
+
+			escreva("Digite quantos filhos você tem: ")
+			leia(filhos)
+			somaFilhos = somaFilhos + filhos
 			
-			escreva("Digite o valor do salário: ")
-			leia(salario)
-			somaSalario = somaSalario + salario
-			se(salario <= 100) {
-				porcentPessoasSalar++
 			}
 
-			escreva("Digite a quantidade de filhos: ")
-			leia(qtdFilhos)
-			somaFilhos = somaFilhos + qtdFilhos
+			se(salarios > 100){
+				qtdPessoasSalario++
+			}
+			//medias
+			mediaFilhos = somaFilhos / hab
+			mediaSalarios = somaSalarios / hab
 
+			//porcentagem de pessoas com salário acimda de 100
+			porcentagem = qtdPessoasSalario * 100 / hab
+			
 
-			mediaSalario = somaSalario / i
-			mediaFilhos = somaFilhos / i 
-			porcentPessoasSalar = (porcentPessoasSalar * 100) / i
+			//dados de saída
+			escreva("\nA média dos salários é ", mediaSalarios)
+			escreva("\nA média de filhos é ", mediaFilhos)
+			escreva("\nA porcentagem de pessoas com salário acima de 100 é ", porcentagem, "%" )
+			escreva("\n")
 
-			escreva("\nA média dos salários é ", mediaSalario)
-			escreva("\nA média de filhos é", mediaFilhos)
-			escreva("\nO maior salário é", maiorSalario)
-			escreva("\n A porcentagem de pessoas com salário acima de 100 é", porcentPessoasSalar)
-			   
+			
+			
 		}
-
+		
 
 		
-	}
+	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 454; 
+ * @POSICAO-CURSOR = 900; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
