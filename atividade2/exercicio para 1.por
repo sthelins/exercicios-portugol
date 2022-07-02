@@ -3,7 +3,7 @@ programa {
 
 		real filhos = 0, somaFilhos = 0, mediaFilhos, i,
 		salarios = 0, somaSalarios = 0, mediaSalarios, 
-		hab = 3, porcentagem, qtdPessoasSalario = 0, maiorSalario = 0
+		hab = 20, porcentagem, qtdPessoasSalario = 0, maiorSalario = 0
 
 		para(i = 1; i <= hab; i++) {
 			//salario
@@ -50,7 +50,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 716; 
+ * @POSICAO-CURSOR = 142; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
