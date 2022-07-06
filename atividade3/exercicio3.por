@@ -3,8 +3,6 @@ programa {
 	funcao inicio() {
 		inteiro N1[4][6],N2[4][6], l, c
 
-		//n consegui vou terminar amanhã
-	
 
 		//n1
 		escreva("Digite os elementos da matriz N1: ")
@@ -34,7 +32,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 101; 
+ * @POSICAO-CURSOR = 66; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {N1, 4, 10, 2};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
